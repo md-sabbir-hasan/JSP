@@ -18,7 +18,7 @@ import java.io.PrintWriter;
  *
  * @author Admin
  */
-@WebServlet(urlPatterns = {"/servlet"})
+@WebServlet(urlPatterns = {"/student"})
 public class StudentServlet extends HttpServlet {
 
     @Override
