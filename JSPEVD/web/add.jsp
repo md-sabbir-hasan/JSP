@@ -22,7 +22,7 @@
         <div class="row mt-3">
             <div class="col-md-6">
                 <label  class="form-label">Date of Birth</label>
-                <input type="date" class="form-control" id="dob" name="dob" placeholder="dd/mm/yyyy">
+                <input type="date" class="form-control" id="dob" name="dob" placeholder="DD/MM/YY">
              
             </div>
 
