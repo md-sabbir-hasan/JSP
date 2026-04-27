@@ -33,8 +33,8 @@ public class StudentServlet extends HttpServlet {
             } else if ("edit".equals(action)) {
                 int id = Integer.parseInt(request.getParameter("id"));
                 Student s = StudentDao.getById(id);
-                request.setAttribute("student", s);
-                request.getRequestDispatcher("home.jsp").forward(request, response);
+                request.setAttribute("student", s);               
+                request.getRequestDispatcher("editStudent.jsp").forward(request, response);
             }
         } catch (Exception e) {
             e.printStackTrace();
