@@ -20,20 +20,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.jsp">Home</a>
+                            <a class="nav-link active" aria-current="page" href="home.jsp">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="addstudentform.jsp">Add Student</a>
+                            <a class="nav-link" href="add.jsp">Add Student</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="allemp.jsp">All Emp</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="addemp.jsp">Add Emp</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
+                      
+                   
                         <li class="nav-item">
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                         </li>

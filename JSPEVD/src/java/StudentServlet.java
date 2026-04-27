@@ -29,12 +29,12 @@ public class StudentServlet extends HttpServlet {
             if ("delete".equals(action)) {
                 int id = Integer.parseInt(request.getParameter("id"));
                 StudentDao.delete(id);
-                response.sendRedirect("index.jsp");
+                response.sendRedirect("home.jsp");
             } else if ("edit".equals(action)) {
                 int id = Integer.parseInt(request.getParameter("id"));
                 Student s = StudentDao.getById(id);
                 request.setAttribute("student", s);
-                request.getRequestDispatcher("editStudent.jsp").forward(request, response);
+                request.getRequestDispatcher("home.jsp").forward(request, response);
             }
         } catch (Exception e) {
             e.printStackTrace();
