@@ -14,14 +14,14 @@
 <div class="container my-5">
     <h1 class="text-primary text-center mb-4">All Students</h1>
 
-    <table class="table table-bordered table-hover">
-        <thead class="table-dark">
+    <table class="table table-bordered">
+        <thead class="table-light">
             <tr>
-                <th>ID</th>
+                <th>Roll</th>
                 <th>Name</th>
-                <th>Email</th>
-                <th>Date of Birth</th>
-                <th>Fee</th>
+                <th>Subject</th>
+                <th>Department</th>
+                <th>Mark</th>
             </tr>
         </thead>
         <tbody>

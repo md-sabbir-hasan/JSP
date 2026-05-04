@@ -7,7 +7,7 @@
 
 
 <div class="container my-3">
-    <div class="bg-success text-center">
+    <div class="bg-light text-center">
         <h1 class="jumborton">Edit Student</h1>
     </div>
     <!--    start form-->
@@ -22,20 +22,20 @@
             </div>
 
             <div class="col-md-6">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-               <input type="email" class="form-control" name="email" value="<%= s.getEmail() %>" required>
+                <label for="exampleInputEmail1" class="form-label">Subject</label>
+               <input type="text" class="form-control" name="email" value="<%= s.getEmail() %>" required>
             </div>        
         </div>
         <!-- start 2nd row-->
         <div class="row mt-3">
             <div class="col-md-6">
-                <label  class="form-label">Date of Birth</label>
-                <input type="date" class="form-control" name="dob" value="<%= s.getDob() %>" required>
+                <label  class="form-label">Department</label>
+                <input type="text" class="form-control" name="dob" value="<%= s.getDob() %>" required>
              
             </div>
 
             <div class="col-md-6">
-                <label for="exampleInputEmail1" class="form-label">Fee</label>
+                <label for="exampleInputEmail1" class="form-label">Marks</label>
                 <input type="text" class="form-control" name="fee" value="<%= s.getFee() %>" required>
             
             </div>        
